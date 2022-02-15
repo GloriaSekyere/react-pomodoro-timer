@@ -5,9 +5,6 @@ import BlueButton from './components/BlueButton';
 import { Keyboard } from './components/Keyboard';
 import { Notifications } from './components/Notifications';
 import { Setings } from './components/Setings';
-import beep from './sound.mp3';
-import Sound from 'react-sound'
-
 
 function App() {
   const [initialSec, setInitialSec] = useState(1500);
