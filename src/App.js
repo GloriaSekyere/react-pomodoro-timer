@@ -66,10 +66,6 @@ function App() {
   }
   return (
     <>
-      <ReactHowler
-        src='sound.mp3'
-        playing={true}
-      />
       <Navbar />
 
       <div className="pt-7 px-4 divide-x divide-blue-300 flex 
